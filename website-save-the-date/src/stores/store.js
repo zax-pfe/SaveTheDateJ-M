@@ -10,6 +10,21 @@ export const useDeviceStore = create(() => ({
   deviceMode: null,
 }));
 
+// Debug mode: on when the URL ends with #debug (debug panel + gizmos).
+export const useDebugStore = create(() => ({
+  debug: false,
+}));
+
+export function listenDebugMode() {
+  const update = () =>
+    useDebugStore.setState({ debug: window.location.hash === "#debug" });
+
+  update();
+  window.addEventListener("hashchange", update);
+
+  return () => window.removeEventListener("hashchange", update);
+}
+
 export function listenDeviceMode() {
   const queries = Object.entries(DEVICE_BREAKPOINTS).map(([mode, width]) => ({
     mode,
