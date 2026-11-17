@@ -8,7 +8,7 @@ const HEIGHT = 1.5;
 // Castle gate: two leaves. Each group sits on its hinge, so a rotation-y opens the leaf.
 export default function Doors() {
   const { opening } = useControls("Doors", {
-    opening: { value: 0, min: 0, max: 100, step: 1, label: "opening (°)" },
+    opening: { value: 69, min: 0, max: 100, step: 1, label: "opening (°)" },
   });
   const angle = MathUtils.degToRad(opening);
 

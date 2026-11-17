@@ -1,9 +1,14 @@
 {
   "light": {"position":[4,10,8],"rotation":[0,0,0],"scale":[1,1,1]},
-  "background": {"position":[0,0,-20],"rotation":[0,0,0],"scale":[1,1,1]},
-  "ground": {"position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]},
-  "cloud-back": {"position":[-2.5,3.941,-7.883],"rotation":[0,0,0],"scale":[1,1,1]},
-  "cloud-mid": {"position":[2.5,5,-6.583],"rotation":[0,0,0],"scale":[1,1,1]},
-  "cloud-front": {"position":[0,2.446,-8.977],"rotation":[0,0,0],"scale":[1,1,1]},
-  "doors": {"position":[0,0,2],"rotation":[0,0,0],"scale":[1,1,1]}
+  "background": {"position":[1.554,-1.457,-12.938],"rotation":[0,0,0],"scale":[1,1,1]},
+  "ground": {"position":[-0.16,0.515,0],"rotation":[0,0,0],"scale":[1,0.982,1]},
+  "cloud-back": {"position":[-3.743,5.707,-7.156],"rotation":[0,0,0],"scale":[1,1,1]},
+  "cloud-mid": {"position":[0.804,6.554,-6.583],"rotation":[0,0,0],"scale":[1,1,1]},
+  "cloud-front": {"position":[3.237,5.074,-8.977],"rotation":[0,0,0],"scale":[1,1,1]},
+  "doors": {"position":[0.035,0.511,2],"rotation":[0,0,0.016],"scale":[1,0.999,1]},
+  "castle": {"position":[-0.294,-0.404,-8.186],"rotation":[0.035,0,0],"scale":[1,1,1]},
+  "marieJean": {"position":[-0.348,0.246,-4.952],"rotation":[0,0,0.008],"scale":[0.618,0.643,1]},
+  "mailbox": {"position":[0.375,0.696,-0.893],"rotation":[0,0,0],"scale":[1,1,1]},
+  "mirror": {"position":[-1.703,0.603,-7.418],"rotation":[0,0,0],"scale":[1,1,1]},
+  "bush": {"position":[0.775,0.325,2.569],"rotation":[0,0,0],"scale":[1,1,1]}
 }
