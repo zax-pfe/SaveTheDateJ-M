@@ -1,18 +1,5 @@
-import { useTexture } from "@react-three/drei";
-import { DoubleSide } from "three";
-import DebugPivot from "@/components/DebugPivot/DebugPivot";
+import Sprite from "@/components/Sprite/Sprite";
 
-const HEIGHT = 1;
-export default function Bush() {
-  const texture = useTexture("/assets/Img/Cloud/Buissons.png");
-  const width = HEIGHT * (texture.image.width / texture.image.height);
-
-  return (
-    <DebugPivot id="bush">
-      <mesh position-y={HEIGHT / 2}>
-        <planeGeometry args={[width, HEIGHT]} />
-        <meshBasicMaterial map={texture} transparent side={DoubleSide} />
-      </mesh>
-    </DebugPivot>
-  );
+export default function Bush({ id = "bush" }) {
+  return <Sprite id={id} url="/assets/Img/bush_1.png" height={1} />;
 }

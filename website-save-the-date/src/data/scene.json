@@ -1,14 +1,17 @@
 {
-  "light": {"position":[4,10,8],"rotation":[0,0,0],"scale":[1,1,1]},
-  "background": {"position":[1.554,-1.457,-12.938],"rotation":[0,0,0],"scale":[1,1,1]},
+  "light": {"position":[4,2.612,8.789],"rotation":[0.651,0,0],"scale":[1,1,1]},
+  "background": {"position":[1.554,-1.457,-9.785],"rotation":[0,0,0],"scale":[1,1,1]},
   "ground": {"position":[-0.16,0.515,0],"rotation":[0,0,0],"scale":[1,0.982,1]},
-  "cloud-back": {"position":[-3.743,5.707,-7.156],"rotation":[0,0,0],"scale":[1,1,1]},
-  "cloud-mid": {"position":[0.804,6.554,-6.583],"rotation":[0,0,0],"scale":[1,1,1]},
-  "cloud-front": {"position":[3.237,5.074,-8.977],"rotation":[0,0,0],"scale":[1,1,1]},
-  "doors": {"position":[0.035,0.511,2],"rotation":[0,0,0.016],"scale":[1,0.999,1]},
+  "cloud-back": {"position":[-3.743,3.32,-7.156],"rotation":[0,0,0],"scale":[1,1,1]},
+  "cloud-mid": {"position":[0.804,4.917,-6.583],"rotation":[0,0,0],"scale":[1,1,1]},
+  "cloud-front": {"position":[3.237,3.338,-8.977],"rotation":[0,0,0],"scale":[1,1,1]},
+  "portal": {"position":[0.24,0.273,2.071],"rotation":[0,0,0.037],"scale":[1,0.999,1]},
   "castle": {"position":[-0.294,-0.404,-8.186],"rotation":[0.035,0,0],"scale":[1,1,1]},
-  "marieJean": {"position":[-0.348,0.246,-4.952],"rotation":[0,0,0.008],"scale":[0.618,0.643,1]},
-  "mailbox": {"position":[0.375,0.696,-0.893],"rotation":[0,0,0],"scale":[1,1,1]},
-  "mirror": {"position":[-1.703,0.603,-7.418],"rotation":[0,0,0],"scale":[1,1,1]},
-  "bush": {"position":[0.775,0.325,2.569],"rotation":[0,0,0],"scale":[1,1,1]}
+  "marieJean": {"position":[0.562,0.253,-6.251],"rotation":[0,0,0.008],"scale":[0.618,0.643,1]},
+  "mailbox": {"position":[0.375,0.588,-3.361],"rotation":[0,0,0],"scale":[1,1,1]},
+  "mirror": {"position":[-1.703,0.603,-3.839],"rotation":[0,0,0],"scale":[1,1,1]},
+  "bush": {"position":[0.775,0.486,-1.483],"rotation":[-3.102,0,3.064],"scale":[1,1,1]},
+  "grass": {"position":[-0.16,0.52,0],"rotation":[0,0,-0.011],"scale":[1,1,1]},
+  "tree-1": {"position":[-2.261,0.3,-5.598],"rotation":[0,0,0],"scale":[1,1,1]},
+  "tree-2": {"position":[2.558,0.3,-4],"rotation":[0,0,0],"scale":[1,1,1]}
 }
